@@ -54,6 +54,8 @@ background-size: cover;
 
 .card{
 margin:55px auto;
+box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transition: transform .4s;
 }
 
 .card-img-top{
@@ -71,8 +73,9 @@ padding-top:20px;
 width:575px;
 }
 
-#googlebtn{
-margin:20px;
+.card:hover{
+
+transform: scale(1.1); 
 }
 
 
@@ -165,7 +168,7 @@ margin:20px;
 	<div  class="row" >
 	
 		
-		<div class="col-sm-4">
+		<div  class="col-sm-4">
 			<div class="card" style="width: 18rem;" id="bike1">
 				<img  class="card-img-top" src="hayabusa.png" alt="Card image cap">
 				<div class="card-body">
@@ -243,8 +246,8 @@ margin:20px;
 	
 
 	<div id="download" class="container">
-	<button id="googlebtn" type="button" class="btn btn-lg btn-dark" onclick=" window.open('https://play.google.com/store?utm_source=apac_Med&utm_medium=hasem&utm_content=Aug0919&utm_campaign=Evergreen&pcampaignid=MKT-DR-apac-in-1003227-Med-hasem-py-Evergreen-Aug0919-Text_Search_BKWS-BKWS%7cONSEM_kwid_43700037284874966_creativeid_113397194945_device_c_kwd_kwd-58928943501_geoid_9061702_network_g&gclid=CjwKCAjw44jrBRAHEiwAZ9igKET9AbT2G4lggqwerKqV4Sfz1QDmZJ_Lvd1U1F5s0AAyrZ3TKnduShoCtVUQAvD_BwE&gclsrc=aw.ds','_blank')"><img src="ps.png" width="50" />Google Playstore</button>
-	<button id="applebtn" type="button" class="btn btn-lg btn-dark" onclick=" window.open('https://www.apple.com/in/ios/app-store/','_blank')"><img src="as1.png" width="57.5" />Apple Store</button>
+	<button id="googlebtn" type="button" class="btn btn-lg btn-dark my-2 my-sm-0 mr-2" onclick=" window.open('https://play.google.com/store?utm_source=apac_Med&utm_medium=hasem&utm_content=Aug0919&utm_campaign=Evergreen&pcampaignid=MKT-DR-apac-in-1003227-Med-hasem-py-Evergreen-Aug0919-Text_Search_BKWS-BKWS%7cONSEM_kwid_43700037284874966_creativeid_113397194945_device_c_kwd_kwd-58928943501_geoid_9061702_network_g&gclid=CjwKCAjw44jrBRAHEiwAZ9igKET9AbT2G4lggqwerKqV4Sfz1QDmZJ_Lvd1U1F5s0AAyrZ3TKnduShoCtVUQAvD_BwE&gclsrc=aw.ds','_blank')"><img src="ps.png" width="50" />Google Playstore</button>
+	<button id="applebtn" type="button" class="btn btn-lg btn-dark my-2 my-sm-0 mr-2" onclick=" window.open('https://www.apple.com/in/ios/app-store/','_blank')"><img src="as1.png" width="57.5" />Apple Store</button>
 	</div>
 </div>	
 	
